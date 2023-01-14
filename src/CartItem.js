@@ -46,7 +46,7 @@ class CartItem extends React.Component {
     return (
       <div className="cart-item">
         <div className="left-block">
-          <img style={styles.image} />
+          <img style={styles.image} alt =""/>
         </div>
         <div className="right-block">
           {/* <div style={{ fontSize: 40, color: "red" }}>{this.state.title}</div> */}
